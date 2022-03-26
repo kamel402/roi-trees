@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="./css/reform.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="shortcut icon" href="#">
+        <title>roi-trees</title>
+    </head>
+    <body>
+
+        <div id="container">
+            <img id="locateMe" src="./img/mylocation.svg" title="Find my location">
+
+            <div id="legend">
+                <div id="logo_container">
+                    <img id="logo" src="./img/logo.jpeg">
+                </div>
+
+                <div id=district_name>
+                    <h1 id="district_english">Nada</h1>
+                    <h2 id="district_arabic"></h2>
+                </div>
+                <div id="population_density_index">
+                    <h1>Population Density</h1>
+                    <div class="indicator_border">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <div id="particulate_matter">
+                    <h1>Particulate Matter (PM2.5)</h1>
+                    <div class="indicator_border">
+                        <div class="indicator"></div>
+                    </div>
+
+                </div>
+                <div id="temperature">
+                    <h1>Temperature</h1>
+                    <div class="indicator_border">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <div id="ROI_temperature">
+                    <h1>ROI for Temperature</h1>
+                    <div class="indicator_border">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <div id="ROI_particulate_matter">
+                    <h1>ROI for Particulate Matter</h1>
+                    <div class="indicator_border">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                
+                
+                
+                <div id="logo_container">
+                    <img id="roi" src="./img/ROI.png">
+                </div>
+
+                
+
+            </div>
+            <div id="map"></div>
+        </div>
+        <script src="./js/reform.js"></script>
+    </body>
+</html>
